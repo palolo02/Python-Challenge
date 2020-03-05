@@ -2,6 +2,7 @@
 # Paolo Vega
 # 03/02/2020
 # Version 1.0
+#   Version 1.1   03/03/2020
 # File to run the PyBank analysis of the financial records of our company
 # ===============================================
 
@@ -57,8 +58,7 @@ noMonths = len(months)
 print("Financial Analysis")
 print("----------------------------------------------")
 print(f"Total months:  {noMonths}")
-print(f"Total value:  {totalValue}")
-print(f"Average: $ {avgChange}")
-print(f"Greatest increase in Profit: {greatestIncMonth} , $ {greatestIncrease}")
-print(f"Greatest decrease in Profit: {greatestDecMonth} , $ {greatestDecrease}")
-
+print(f"Total value: {totalValue:,.3f} ")
+print(f"Average: $ {avgChange:,.3f}")
+print(f"Greatest increase in Profit: {greatestIncMonth} , $ {greatestIncrease:,.3f}")
+print(f"Greatest decrease in Profit: {greatestDecMonth} , $ {greatestDecrease:,.3f}")
