@@ -4,6 +4,7 @@
 # Version   1.0.0 03/02/2020
 #           1.0.1 03/04/2020
 #           1.0.2 03/05/2020
+#           1.0.3 03/06/2020
 # File to run the PyBank analysis of the financial records of our company
 # ===============================================
 
@@ -14,7 +15,7 @@ import datetime
 import statistics
 
 # Define the folder and file name location
-folder =  "../Resources"
+folder = 'PyBank'
 csvName = "budget_data.csv"
 csvpath = os.path.join(folder,csvName)
 
@@ -75,5 +76,5 @@ print("----------------------------------------------")
 print(f"Total months:  {noMonths}")
 print(f"Total value: {totalValue:,.3f} ")
 print(f"Average: $ {avgChange:,.3f}")
-print(f"Greatest increase in Profit: {greatestIncMonth} , $ {greatestIncrease:,.3f}")
-print(f"Greatest decrease in Profit: {greatestDecMonth} , $ {greatestDecrease:,.3f}")
+print(f"Greatest increase in Profit: {greatestIncMonth} | $ {greatestIncrease:,.3f}")
+print(f"Greatest decrease in Profit: {greatestDecMonth} | $ {greatestDecrease:,.3f}")

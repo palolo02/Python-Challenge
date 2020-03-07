@@ -4,6 +4,7 @@
 # Version   1.0.0 03/02/2020
 #           1.0.1 03/04/2020
 #           1.0.2 03/05/2020
+#           1.0.3 03/06/2020
 # File to run the PyPoll analysis
 # ===============================================
 
@@ -14,7 +15,7 @@ import datetime
 import statistics
 
 # Define the folder and file name location
-folder =  "../Resources"
+folder = 'PyPoll'
 csvName = "election_data.csv"
 # Define the output file name
 txtName = "results.txt"
